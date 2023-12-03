@@ -10,7 +10,7 @@ body {
     height: 100vh;
     background: url('https://c4.wallpaperflare.com/wallpaper/264/871/595/monochrome-computer-programming-html-wallpaper-preview.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     overflow-x: hidden;
 }
