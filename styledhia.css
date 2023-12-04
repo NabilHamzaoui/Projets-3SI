@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	font-family: 'Cairo', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	display: block;
+}
+
+header{
+	background-color: #f0f0f0;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 200px;
+}
+
+.logo{
+	text-decoration: none;
+	color: #01261C;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 2.7em;
+}
+
+.navigation a{
+	color: #01261C;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 700;
+	padding-left: 30px;
+}
+
+.navigation a:hover{
+	color: limegreen;
+}
+
+section{
+	text-align: center;
+	padding: 100px 400px;
+}
+
+.main{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: #01261C;
+}
+
+.main h2{
+	text-align: center;
+	color: #038C65;
+	font-size: 1.4em;
+	font-weight: 500;
+}
+.main h2 span{
+	display: inline-block;
+	margin-top: 10px;
+	color: #ffff;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.main h3{
+	color: #038C65;
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #ffffff;
+    background-color: #04BF8A;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    display: inline-block;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    transition: 0.7s ease;
+    margin-bottom: 40px;
+}
+
+.main-btn:hover{
+	background-color: #00946a;
+	transform: scale(1.1);
+}
+
+.social-icons a{
+	color: #ffff;
+	font-size: 1.7em;
+	padding-right: 30px;
+}
+
+.social-icons :hover{
+	transform: scale(1.1);
+}
+
+.title1{
+	font-size: 2em;
+	color: #038C65;
+	margin-top: 30px;
+}
+
+.aboutme-p{
+	font-size: 1.2em;
+	font-weight: 700;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.aboutme{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.games{
+	background-color: #01261C;
+	background-position: center;
+}
+
+.title{
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 2em;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.gamecard{
+	background-color: #ffffff;
+    border: 1px solid #ffffff;
+	min-height: 14em;
+	box-shadow: 0 5px 25px rgba(1, 1, 1, / 15%);
+	width: 18em;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 25px;
+    margin: 25px;
+    transition: 0.7s ease;
+    margin-bottom: 50PX;
+}
+
+.gamecard:hover{
+	transform: scale(1.1);
+}
+
+.gameimage img{
+	width: 100%;
+}
+
+.gamecard:hover .gameimage{
+	opacity: 0.9;
+}
+
+.gamename{
+	display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+	white-space: nowrap;
+}
+
+.movies{
+	background-color: #014130;
+	background-position: center;
+}
+
+.series{
+	background-color: #01261C;
+	background-position: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 40%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #014130;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #014130;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #01261C;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #ff414e;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
